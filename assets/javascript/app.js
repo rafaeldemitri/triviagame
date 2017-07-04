@@ -7,6 +7,9 @@ var time = 60;
 
 		var q1 = false;
 		var q2 = false;
+		var q3 = false;
+		var q4 = false;
+		var q5 = false;
 		var score = 0;
 //init functions
 
@@ -135,7 +138,7 @@ var time = 60;
 
 			$(".submit").on("click", function() {
 
-				$(".scoreBoard").attr("style", "height: auto; margin-top: 100px;");
+				$(".scoreBoard").attr("style", "height: 250px; margin-top: 100px;");
 				$(".wrapper").attr("style", "height: 0px;");
 				if (q1) {
 					score ++;
