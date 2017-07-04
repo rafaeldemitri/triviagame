@@ -1,7 +1,5 @@
 body {
-	margin-left: 300px;
-	margin-right: 200px;
-	background-image: url("triviagame/assets/images/gang.jpg");
+	background-image: url("gang.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -14,7 +12,9 @@ button {
 	font-weight: bold;
 }
 
-
+h1 {
+	left: 50%;
+}
 
 h4 {
 	display: inline-block;
@@ -23,6 +23,12 @@ h4 {
 .scoreBoard {
 	height: 0px;
 	overflow: hidden;
+	background-color: white;
+	opacity: 0.9;
+	margin: 0 auto;
+	left: 30%;
+	width: 40%;
+	text-align: center;
 }
 
 .wrapper {
@@ -30,6 +36,7 @@ h4 {
 	overflow: hidden;
 	width: 80%;
 	background-color: white;
+	opacity: 0.9;
 	margin: 0 auto;
 	left: 10%;
 	position: absolute;
